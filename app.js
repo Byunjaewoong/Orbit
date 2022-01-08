@@ -7,7 +7,8 @@ class App {
         document.body.appendChild(this.canvas);
         this.ctx = this.canvas.getContext('2d');
     
-        this.pixelRatio = window.devicePixelRatio > 1 ? 2 : 1;
+        //this.pixelRatio = window.devicePixelRatio > 1 ? 2 : 1;
+        this.pixelRatio = 1; // quarter view 수정
     
         this.sunx = 0;
         this.suny = 0;
